@@ -13,6 +13,7 @@ Bundle-ActivationPolicy: lazy
 Import-Package: org.eclipse.core.databinding,
  org.eclipse.jface.databinding.swt,
  org.eclipse.jface.dialogs,
+ org.eclipse.jface.layout,
  org.eclipse.swt,
  org.eclipse.swt.events,
  org.eclipse.swt.layout,

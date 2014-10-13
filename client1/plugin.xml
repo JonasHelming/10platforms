@@ -11,14 +11,14 @@
          </run>
       </application>
    </extension>
-   <extension
+  <!-- <extension
          point="org.eclipse.rap.ui.entrypoint">
       <entrypoint
             applicationId="client1.application"
             id="client"
             path="/client">
       </entrypoint>
-   </extension>
+   </extension>!-->
    
 
 </plugin>
