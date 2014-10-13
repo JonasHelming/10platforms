@@ -3,13 +3,17 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Client1
 Bundle-SymbolicName: client1;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: client1.Activator
-Require-Bundle: org.eclipse.ui,
- org.eclipse.core.runtime,
- org.eclipse.jface.databinding,
+Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.core.databinding.observable,
- org.eclipse.emf.ecp.ui.view.swt,
- submissionmodel;bundle-version="0.1.0",
- org.eclipse.emf.ecore
+ org.eclipse.emf.ecore,
+ submissionmodel,
+ org.eclipse.emf.ecp.ui.view.swt;bundle-version="1.4.1"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.core.databinding,
+ org.eclipse.jface.databinding.swt,
+ org.eclipse.jface.dialogs,
+ org.eclipse.swt,
+ org.eclipse.swt.events,
+ org.eclipse.swt.layout,
+ org.eclipse.swt.widgets

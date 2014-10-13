@@ -11,4 +11,9 @@
       <domainModelEFeature xsi:type="ecore:EAttribute" href="myUniqueID#//Submission/eMail"/>
     </domainModelReference>
   </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" name="Control answer">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="myUniqueID#//Submission/answer"/>
+    </domainModelReference>
+  </children>
 </org.eclipse.emf.ecp.view.model:View>

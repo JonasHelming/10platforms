@@ -9,11 +9,14 @@ import org.eclipse.equinox.app.IApplication;
 import org.eclipse.equinox.app.IApplicationContext;
 import org.eclipse.jface.databinding.swt.SWTObservables;
 import org.eclipse.jface.dialogs.MessageDialog;
+import org.eclipse.jface.layout.GridDataFactory;
+import org.eclipse.jface.layout.GridLayoutFactory;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
@@ -25,7 +28,7 @@ import submission.SubmissionFactory;
 public class Application implements IApplication {
 	
 	
-	public static void fillShell(final Shell shell) throws ECPRendererException {
+	public static void fillShell(final Shell shell) throws ECPRendererException{
 		final EObject newObject = SubmissionFactory.eINSTANCE.createSubmission();
 		ECPSWTViewRenderer.INSTANCE.render(shell, newObject,
 				ViewProviderHelper.getView(newObject, null));
@@ -34,7 +37,7 @@ public class Application implements IApplication {
 		button.addSelectionListener(new SelectionAdapter() {		
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				MessageDialog.openInformation(shell, "", newObject.toString());
+				MessageDialog.openInformation(shell.getShell(), "", newObject.toString());
 				
 			}					
 		});
