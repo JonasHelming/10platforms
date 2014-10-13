@@ -13,6 +13,7 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.layout.FillLayout;
+import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
@@ -50,7 +51,7 @@ public class Application implements IApplication {
 	public Object start(IApplicationContext context) throws Exception {
 		final Display display = new Display();
 		final Shell shell = new Shell(display);
-		shell.setLayout(new FillLayout(SWT.VERTICAL));
+		shell.setLayout(new GridLayout());
 		Realm.runWithDefault(SWTObservables.getRealm(display), new Runnable() {
 			
 			@Override
