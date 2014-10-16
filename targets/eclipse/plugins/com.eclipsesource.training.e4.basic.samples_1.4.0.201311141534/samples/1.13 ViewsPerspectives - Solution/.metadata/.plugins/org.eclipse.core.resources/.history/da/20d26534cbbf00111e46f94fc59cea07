@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_fpz7QLVvEeGV7u1rdFDubQ" elementId="org.eclipsercp.e4.hyperbola.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_g4R5gLVvEeGV7u1rdFDubQ" elementId="org.eclipsercp.e4.hyperbola.trimmedwindow">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_mb6hILYzEeGMbL5tzip2zw" elementId="org.eclipsercp.e4.hyperbola.partsashcontainer.0" horizontal="true">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_zPPrgL-8EeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.partsashcontainer.0"/>
+    </children>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_q-ylUL_JEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.perspectivestack.0" selectedElement="_rjkGUL_JEeGPQOdjhW6caQ">
+      <children xsi:type="advanced:Perspective" xmi:id="_rjkGUL_JEeGPQOdjhW6caQ" elementId="withoutediting">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_-MRG0L_JEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_AbyH0L_JEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.contactarea">
+            <children xsi:type="advanced:Placeholder" xmi:id="_ULYCcL_KEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.contactarea" ref="_aBt04LVwEeGV7u1rdFDubQ"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_ji0tkL_KEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.partstack.0">
+            <children xsi:type="advanced:Placeholder" xmi:id="_c6rU4L_KEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.placeholder.0" ref="_oq8kgLYzEeGMbL5tzip2zw"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_th6pYL_JEeGPQOdjhW6caQ" elementId="withediting">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_BloPUL_KEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.partsashcontainer.0" horizontal="true">
+          <children xsi:type="advanced:Placeholder" xmi:id="_vPZCYL_KEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.placeholder.0" ref="_aBt04LVwEeGV7u1rdFDubQ"/>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_udzNYL_KEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.partsashcontainer.0">
+            <children xsi:type="basic:PartStack" xmi:id="_G8VqwL_JEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.detailsarea">
+              <tags>editorArea</tags>
+            </children>
+            <children xsi:type="advanced:Placeholder" xmi:id="_zrv48L_KEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.placeholder.0" ref="_oq8kgLYzEeGMbL5tzip2zw"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_-eYEQLlXEeGEw9V6HQFyCA" elementId="org.eclipsercp.e4.hyperbola.mainMenu"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_aBt04LVwEeGV7u1rdFDubQ" elementId="org.eclipsercp.e4.hyperbola.part.0" contributionURI="bundleclass://org.eclipsercp.e4.hyperbola/org.eclipsercp.e4.hyperbola.ContactsView" label="Contacts View" closeable="true">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_2FDRcL-wEeGPQOdjhW6caQ" elementId="popupmenu" label="popupmenu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_q9YcoL-0EeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.handledmenuitem.0" label="edit" command="_osKA4L-0EeGPQOdjhW6caQ">
+          <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_aZ8qEL-1EeGPQOdjhW6caQ" coreExpressionId="org.eclipsercp.e4.hyperbola.isContact"/>
+        </children>
+      </menus>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_oq8kgLYzEeGMbL5tzip2zw" elementId="org.eclipsercp.e4.hyperbola.part.1" contributionURI="bundleclass://org.eclipsercp.e4.hyperbola/org.eclipsercp.e4.hyperbola.DetailsView" label="Details View" closeable="true"/>
+    <trimBars xmi:id="_ECfx8LlJEeG6X9V5AeeKHA" elementId="org.eclipsercp.e4.hyperbola.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_EipRoLlJEeG6X9V5AeeKHA" elementId="org.eclipsercp.e4.hyperbola.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_FoPnwLlJEeG6X9V5AeeKHA" elementId="org.eclipsercp.e4.hyperbola.handledtoolitem.0" label="Add Contact" command="_HyJTgLlJEeG6X9V5AeeKHA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ZKz1EL_DEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.handledtoolitem.0" label="Save" command="_X0rvoL_DEeGPQOdjhW6caQ"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_noXBsLlKEeG6X9V5AeeKHA" elementId="org.eclipsercp.e4.hyperbola.addContactHandler" contributionURI="bundleclass://org.eclipsercp.e4.hyperbola/org.eclipsercp.e4.hyperbola.AddContactHandler" command="_HyJTgLlJEeG6X9V5AeeKHA"/>
+  <handlers xmi:id="_mK_rsL-0EeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.handlereditcontacthandler" contributionURI="bundleclass://org.eclipsercp.e4.hyperbola/org.eclipsercp.e4.hyperbola.EditContactHandler" command="_osKA4L-0EeGPQOdjhW6caQ"/>
+  <handlers xmi:id="_W1u0EL_DEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.handler.save" contributionURI="bundleclass://org.eclipsercp.e4.hyperbola/org.eclipsercp.e4.hyperbola.SaveHandler" command="_X0rvoL_DEeGPQOdjhW6caQ"/>
+  <bindingTables xmi:id="_BWOE4L_LEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.bindingtable.0" bindingContext="_BvKwYL_LEeGPQOdjhW6caQ"/>
+  <rootContext xmi:id="_BvKwYL_LEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.bindingcontext.0" name="contex"/>
+  <descriptors xmi:id="_qLMREL-8EeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.editorpartdescriptor" allowMultiple="true" category="editorArea" closeable="true" dirtyable="true" contributionURI="bundleclass://org.eclipsercp.e4.hyperbola/org.eclipsercp.e4.hyperbola.EditorView"/>
+  <commands xmi:id="_HyJTgLlJEeG6X9V5AeeKHA" elementId="org.eclipsercp.e4.hyperbola.addContactCommand" commandName="Add Contact"/>
+  <commands xmi:id="_osKA4L-0EeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.command.editcontactcommand" commandName="Edit Contact"/>
+  <commands xmi:id="_X0rvoL_DEeGPQOdjhW6caQ" elementId="org.eclipsercp.e4.hyperbola.command.save" commandName="Save"/>
+  <addons xmi:id="_fpz7QbVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_fpz7QrVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_fpz7Q7VvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_fpz7RLVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_fpz7RbVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_fpz7RrVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

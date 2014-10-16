@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_W4nxILlOEeGEw9V6HQFyCA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ujx-4LlOEeGEw9V6HQFyCA" featurename="commands" parentElementId="org.eclipsercp.e4.hyperbola.application">
+    <elements xsi:type="commands:Command" xmi:id="_29nXoLlOEeGEw9V6HQFyCA" elementId="org.eclipsercp.e4.hyperbola.extensions.removeContactCommand" commandName="Remove Contact"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_7tuQoLlOEeGEw9V6HQFyCA" featurename="handlers" parentElementId="org.eclipsercp.e4.hyperbola.application">
+    <elements xsi:type="commands:Handler" xmi:id="_-p3RoLlOEeGEw9V6HQFyCA" elementId="org.eclipsercp.e4.hyperbola.extensions.removeContactHandler" contributionURI="bundleclass://org.eclipsercp.e4.hyperbola.extensions/org.eclipsercp.e4.hyperbola.extensions.RemoveContactHandler" command="_29nXoLlOEeGEw9V6HQFyCA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_GPeYILlPEeGEw9V6HQFyCA" featurename="children" parentElementId="org.eclipsercp.e4.hyperbola.toolbar">
+    <elements xsi:type="menu:HandledToolItem" xmi:id="_6CADwLlQEeGEw9V6HQFyCA" elementId="org.eclipsercp.e4.hyperbola.extensions.removeContactItem" label="Remove Contact" command="_29nXoLlOEeGEw9V6HQFyCA"/>
+  </fragments>
+</fragment:ModelFragments>

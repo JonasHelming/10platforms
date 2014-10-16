@@ -1,0 +1,14 @@
+package org.eclipsercp.e4.hyperbola;
+
+import org.eclipse.e4.ui.model.application.ui.advanced.MPerspective;
+
+public class OpenPerspectiveHandler {
+
+	private MPerspective perspective;
+
+	public OpenPerspectiveHandler(MPerspective perspective) {
+		this.perspective = perspective;
+		// TODO Auto-generated constructor stub
+	}
+
+}

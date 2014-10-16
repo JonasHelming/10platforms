@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_9OckwL-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.e4.ide.application" bindingContexts="_9Ockwb-qEeGRKvZ2vKm0Mw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_9OdL0b-qEeGRKvZ2vKm0Mw" label="org.eclipsercp.e4.texteditor" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_9OdL2b-qEeGRKvZ2vKm0Mw">
+      <children xsi:type="advanced:Perspective" xmi:id="_9OdL2r-qEeGRKvZ2vKm0Mw">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_9OdL27-qEeGRKvZ2vKm0Mw">
+          <children xsi:type="basic:PartStack" xmi:id="_9OdL3L-qEeGRKvZ2vKm0Mw"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_9OdL0r-qEeGRKvZ2vKm0Mw" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_9OdL07-qEeGRKvZ2vKm0Mw" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_9OdL1L-qEeGRKvZ2vKm0Mw" label="Open" iconURI="platform:/plugin/org.eclipsercp.e4.texteditor/icons/sample.gif" command="_9Ockzr-qEeGRKvZ2vKm0Mw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_9OdL1b-qEeGRKvZ2vKm0Mw" label="Save" iconURI="platform:/plugin/org.eclipsercp.e4.texteditor/icons/save_edit.gif" command="_9Ock0b-qEeGRKvZ2vKm0Mw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_9OdL1r-qEeGRKvZ2vKm0Mw" label="Quit" command="_9Ockyr-qEeGRKvZ2vKm0Mw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_9OdL17-qEeGRKvZ2vKm0Mw" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_9OdL2L-qEeGRKvZ2vKm0Mw" label="About" command="_9Ock1L-qEeGRKvZ2vKm0Mw"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_9OdL3b-qEeGRKvZ2vKm0Mw">
+      <children xsi:type="menu:ToolBar" xmi:id="_9OdL3r-qEeGRKvZ2vKm0Mw" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9OdL37-qEeGRKvZ2vKm0Mw" iconURI="platform:/plugin/org.eclipsercp.e4.texteditor/icons/sample.gif" command="_9Ockzr-qEeGRKvZ2vKm0Mw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9OdL4L-qEeGRKvZ2vKm0Mw" iconURI="platform:/plugin/org.eclipsercp.e4.texteditor/icons/save_edit.gif" command="_9Ock0b-qEeGRKvZ2vKm0Mw"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_9Ocky7-qEeGRKvZ2vKm0Mw" contributionURI="bundleclass://org.eclipsercp.e4.texteditor/org.eclipsercp.e4.texteditor.handlers.QuitHandler" command="_9Ockyr-qEeGRKvZ2vKm0Mw"/>
+  <handlers xmi:id="_9Ockz7-qEeGRKvZ2vKm0Mw" contributionURI="bundleclass://org.eclipsercp.e4.texteditor/org.eclipsercp.e4.texteditor.handlers.OpenHandler" command="_9Ockzr-qEeGRKvZ2vKm0Mw"/>
+  <handlers xmi:id="_9Ock0r-qEeGRKvZ2vKm0Mw" contributionURI="bundleclass://org.eclipsercp.e4.texteditor/org.eclipsercp.e4.texteditor.handlers.SaveHandler" command="_9Ock0b-qEeGRKvZ2vKm0Mw"/>
+  <handlers xmi:id="_9Ock1b-qEeGRKvZ2vKm0Mw" contributionURI="bundleclass://org.eclipsercp.e4.texteditor/org.eclipsercp.e4.texteditor.handlers.AboutHandler" command="_9Ock1L-qEeGRKvZ2vKm0Mw"/>
+  <bindingTables xmi:id="_9OckzL-qEeGRKvZ2vKm0Mw" bindingContext="_9Ockwb-qEeGRKvZ2vKm0Mw">
+    <bindings xmi:id="_9Ockzb-qEeGRKvZ2vKm0Mw" keySequence="M1+Q" command="_9Ockyr-qEeGRKvZ2vKm0Mw"/>
+    <bindings xmi:id="_9Ock0L-qEeGRKvZ2vKm0Mw" keySequence="M1+O" command="_9Ockzr-qEeGRKvZ2vKm0Mw"/>
+    <bindings xmi:id="_9Ock07-qEeGRKvZ2vKm0Mw" keySequence="M1+S" command="_9Ock0b-qEeGRKvZ2vKm0Mw"/>
+    <bindings xmi:id="_9OdL0L-qEeGRKvZ2vKm0Mw" keySequence="M1+A" command="_9Ock1L-qEeGRKvZ2vKm0Mw"/>
+  </bindingTables>
+  <rootContext xmi:id="_9Ockwb-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_9Ockwr-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_9Ockw7-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_9Ockyr-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_9Ockzr-qEeGRKvZ2vKm0Mw" elementId="org.eclipsercp.e4.texteditor.open" commandName="openCommand"/>
+  <commands xmi:id="_9Ock0b-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_9Ock1L-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_9OckxL-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_9Ockxb-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_9Ockxr-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_9Ockx7-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_9OckyL-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_9Ockyb-qEeGRKvZ2vKm0Mw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

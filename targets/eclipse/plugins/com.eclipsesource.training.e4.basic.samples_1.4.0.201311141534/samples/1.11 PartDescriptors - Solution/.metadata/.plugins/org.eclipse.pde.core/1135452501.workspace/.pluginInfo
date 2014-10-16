@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="503" class="org.eclipsercp.e4.hyperbola.Activator" localization="OSGI-INF/l10n/bundle" name="Hyperbola" project="org.eclipsercp.e4.hyperbola"/>
+	<bundle bundleID="506" class="org.eclipsercp.e4.hyperbola.model.provider.ModelEditPlugin$Implementation" localization="plugin" name="%pluginName" project="org.eclipsercp.e4.hyperbola.model.edit" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="505" localization="plugin" name="%pluginName" project="org.eclipsercp.e4.hyperbola.model" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="508" class="org.eclipsercp.e4.hyperbola.tests.Activator" localization="OSGI-INF/l10n/bundle" name="Tests" project="org.eclipsercp.e4.hyperbola.tests"/>
+	<bundle bundleID="504" class="org.eclipsercp.e4.hyperbola.extensions.Activator" localization="OSGI-INF/l10n/bundle" name="Extensions" project="org.eclipsercp.e4.hyperbola.extensions"/>
+	<bundle bundleID="507" class="org.eclipsercp.e4.hyperbola.services.Activator" localization="OSGI-INF/l10n/bundle" name="Services" project="org.eclipsercp.e4.hyperbola.services"/>
+</map>

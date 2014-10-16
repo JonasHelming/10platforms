@@ -1,0 +1,12 @@
+package org.eclipsercp.e4.texteditor;
+
+public class FileInput {
+
+	private String selectedFile;
+
+	public FileInput(String selectedFile) {
+		this.selectedFile = selectedFile;
+		// TODO Auto-generated constructor stub
+	}
+
+}

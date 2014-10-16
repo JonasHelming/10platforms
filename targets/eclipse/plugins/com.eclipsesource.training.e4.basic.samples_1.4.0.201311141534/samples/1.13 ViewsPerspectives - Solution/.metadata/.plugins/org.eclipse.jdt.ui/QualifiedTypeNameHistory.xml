@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.model.application.ui.basic.MWindow"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.model.application.ui.MDirtyable"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Text"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.SWT"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.core.di.annotations.Optional"/>
+<fullyQualifiedTypeName name="org.eclipsercp.e4.hyperbola.model.ContactService"/>
+<fullyQualifiedTypeName name="org.eclipsercp.e4.hyperbola.model.ContactEntry"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.workbench.swt.modeling.EMenuService"/>
+<fullyQualifiedTypeName name="org.eclipsercp.e4.hyperbola.model.Contact"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.events.KeyListener"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.events.KeyEvent"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.services.IServiceConstants"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.core.contexts.Active"/>
+<fullyQualifiedTypeName name="org.eclipse.core.commands.common.NotDefinedException"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Menu"/>
+<fullyQualifiedTypeName name="org.eclipse.core.commands.NotHandledException"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.graphics.Point"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Event"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.graphics.Color"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.events.PaintEvent"/>
+<fullyQualifiedTypeName name="org.eclipse.core.commands.ExecutionException"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Composite"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Control"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.graphics.Region"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.graphics.Image"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.events.MenuListener"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.List"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.events.MenuEvent"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.MenuItem"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.graphics.Rectangle"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.util.PropertyChangeEvent"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.model.application.MApplication"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.workbench.modeling.EModelService"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.model.application.ui.menu.MMenuFactory"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.model.application.ui.basic.MPart"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.core.di.annotations.Execute"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.workbench.modeling.EPartService"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.workbench.modeling.EPartService.PartState"/>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.model.application.ui.advanced.MPerspective"/>
+</qualifiedTypeNameHistroy>

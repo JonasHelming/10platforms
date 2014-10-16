@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.eclipsesource.training.rcp.e4.basic.feature"
+      label="RCP E4 Basic Samples Manager"
+      version="1.4.0.201311141534"
+      provider-name="EclipseSource">
+
+   <description>
+      Contains the sample code and tools for the EclipseSource RCP Basic course.
+   </description>
+
+   <copyright>
+      Copyright (c) 2012 Jonas Helming, EclipseSource München and others.
+       All rights reserved.
+   </copyright>
+
+   <license>
+      This program and the accompanying materials are made available
+under the terms of the Eclipse Distribution License
+v1.0 which accompanies this distribution, and is available at
+http://www.eclipse.org/org/documents/edl-v10.php.
+   </license>
+
+   <plugin
+         id="org.eclipsercp.samplings"
+         download-size="0"
+         install-size="0"
+         version="1.0.4.201311141534"
+         unpack="false"/>
+
+   <plugin
+         id="com.eclipsesource.training.e4.basic.tools"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201311141534"
+         unpack="false"/>
+
+   <plugin
+         id="com.eclipsesource.training.e4.basic.samples"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.201311141534"/>
+
+</feature>

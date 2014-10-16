@@ -1,0 +1,40 @@
+.MTrimmedWindow.topLevel {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: black;
+}
+
+.MTrimBar {
+	background-color: grey;
+}
+
+
+Tree {
+	background-color: blue green;
+	font: Arial;
+	font-size: 14px;
+	color: white;
+}
+
+
+Label{
+	color:white;
+}
+
+.MPart{
+	background-color: black;
+}
+
+.MPartStack {
+
+	tab-renderer: url('platform:/plugin/org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
+	unselected-tabs-color: #FFFFFF #FFFFFF #FFFFFF 100% 100%;
+	outer-keyline-color: #DDDDDD;
+    	inner-keyline-color: #FFFFFF;
+    	padding: 0px 9px 10px;
+    	tab-outline: #DDDDDD;
+    	shadow-visible: true;
+
+}

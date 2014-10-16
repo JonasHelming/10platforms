@@ -1,0 +1,34 @@
+ 
+package org.eclipsercp.e4.hyperbola;
+
+import javax.inject.Inject;
+import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.e4.ui.di.Persist;
+import org.eclipse.e4.ui.model.application.ui.MDirtyable;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Text;
+
+public class EditorView {
+	
+	@Inject
+	MDirtyable dirtyable;
+	
+	@Inject
+	public EditorView(Composite parent) {
+		Text text = new Text(parent, SWT.NONE);
+	}
+	
+	
+	
+	@Focus
+	public void onFocus() {
+		//TODO Your code here
+	}
+	
+	
+	@Persist
+	public void save() {
+		//TODO Your code here
+	}
+	
+}

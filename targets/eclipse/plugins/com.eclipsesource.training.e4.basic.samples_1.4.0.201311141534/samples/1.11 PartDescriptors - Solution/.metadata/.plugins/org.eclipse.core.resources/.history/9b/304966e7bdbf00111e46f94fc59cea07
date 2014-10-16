@@ -1,0 +1,30 @@
+ 
+package org.eclipsercp.e4.hyperbola;
+
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.eclipse.e4.core.di.annotations.CanExecute;
+import org.eclipse.e4.core.di.annotations.Execute;
+import org.eclipse.e4.ui.services.IServiceConstants;
+import org.eclipse.e4.ui.workbench.modeling.EPartService;
+import org.eclipse.e4.ui.workbench.modeling.EPartService.PartState;
+import org.eclipsercp.e4.hyperbola.model.Contact;
+@SuppressWarnings("restriction")
+
+public class EditContactHandler {
+	@Inject
+	EPartService partService;
+	
+	@Execute
+	public void execute(@Named(IServiceConstants.ACTIVE_SELECTION) Contact entry) {
+		partService.showPart("org.eclipsercp.e4.hyperbola.editorpartdescriptor", PartState.ACTIVATE);
+	}
+	
+	
+	@CanExecute
+	public boolean canExecute(@Named(IServiceConstants.ACTIVE_SELECTION) Contact entry) {
+		return entry!=null;
+	}
+		
+}

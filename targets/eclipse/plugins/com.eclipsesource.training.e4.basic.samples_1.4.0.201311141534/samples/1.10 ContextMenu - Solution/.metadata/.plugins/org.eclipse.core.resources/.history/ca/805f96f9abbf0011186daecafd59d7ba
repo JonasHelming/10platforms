@@ -1,0 +1,5 @@
+package org.eclipsercp.e4.texteditor;
+
+public class FileInput {
+
+}

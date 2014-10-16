@@ -1,0 +1,12 @@
+package org.eclipsercp.e4.hyperbola;
+
+import org.eclipse.e4.core.di.annotations.Execute;
+
+public class ShowViews {
+
+	@Execute
+	void addViewMenu(){
+		
+	}
+
+}

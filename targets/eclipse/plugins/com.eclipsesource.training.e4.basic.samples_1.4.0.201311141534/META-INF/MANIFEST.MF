@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-Vendor: EclipseSource
+Bundle-Version: 1.4.0.201311141534
+Bundle-Name: Samples Manager Plug-in
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.eclipsesource.training.e4.basic.samples
+
+

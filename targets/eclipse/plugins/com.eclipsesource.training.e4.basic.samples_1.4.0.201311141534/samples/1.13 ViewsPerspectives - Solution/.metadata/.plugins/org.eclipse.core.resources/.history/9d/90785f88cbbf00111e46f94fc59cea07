@@ -1,0 +1,9 @@
+package org.eclipsercp.e4.hyperbola;
+
+public class ShowPerspectives {
+
+	public ShowPerspectives() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

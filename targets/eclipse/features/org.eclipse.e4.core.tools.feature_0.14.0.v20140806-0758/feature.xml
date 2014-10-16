@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.e4.core.tools.feature"
+      label="%featureName"
+      version="0.14.0.v20140806-0758"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.e4.tools.emf.editor3x"
+         download-size="65"
+         install-size="134"
+         version="0.12.0.v20140726-0138"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.emf.ui"
+         download-size="1729"
+         install-size="3736"
+         version="0.12.0.v20140728-1808"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.compat"
+         download-size="37"
+         install-size="71"
+         version="0.12.0.v20140611-1610"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.services"
+         download-size="45"
+         install-size="85"
+         version="0.12.0.v20140318-2103"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools"
+         download-size="163"
+         install-size="332"
+         version="0.12.0.v20140806-0758"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.emf.ui.script.js"
+         download-size="64"
+         install-size="113"
+         version="0.12.0.v20140206-0829"
+         unpack="false"/>
+
+   <plugin
+         id="org.mozilla.javascript"
+         download-size="878"
+         install-size="1845"
+         version="1.7.2.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.jdt.templates"
+         download-size="15"
+         install-size="28"
+         version="0.12.0.v20140221-1650"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.emf.liveeditor"
+         download-size="16"
+         install-size="24"
+         version="0.12.0.v20140716-1614"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.tools.spy"
+         download-size="15"
+         install-size="26"
+         version="0.1.0.v20140529-0919"
+         unpack="false"/>
+
+</feature>

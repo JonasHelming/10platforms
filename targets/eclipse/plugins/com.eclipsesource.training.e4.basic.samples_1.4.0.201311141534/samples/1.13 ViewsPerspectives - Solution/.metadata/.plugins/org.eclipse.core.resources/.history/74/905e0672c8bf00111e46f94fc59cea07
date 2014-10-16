@@ -1,0 +1,14 @@
+package org.eclipsercp.e4.hyperbola;
+
+import org.eclipse.e4.ui.model.application.ui.basic.MPart;
+
+public class OpenViewHandler {
+
+	private MPart mPart;
+
+	public OpenViewHandler(MPart mPart) {
+		this.mPart = mPart;
+		// TODO Auto-generated constructor stub
+	}
+
+}
