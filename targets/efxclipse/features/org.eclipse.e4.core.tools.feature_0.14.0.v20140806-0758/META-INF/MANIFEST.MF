@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_25
+Built-By: e4Build
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: META-INF/maven/org.eclipse.e4/org.eclipse.e4.core.tools.feature/
+ pom.properties
+SHA1-Digest: 8DP9qv5avJQiDtqIDMxoCcLa5Lk=
+
+Name: META-INF/maven/org.eclipse.e4/org.eclipse.e4.core.tools.feature/
+ pom.xml
+SHA1-Digest: hODA8ThFgyTlH3YJMKaCcnqUzzI=
+
+Name: feature.properties
+SHA1-Digest: nLalYnR7A/eG8qn0OF1bklqYN0Q=
+
+Name: feature.xml
+SHA1-Digest: u/9Q43z+Z2PC/oPP5azCA5YmlVg=
+

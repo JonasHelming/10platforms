@@ -1,0 +1,343 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: y2Cw3n2CfbYWg/4rZQT0z7O17xA=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: ob6rDFZ7dUec8V4iLCA55JXNzu4=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/.LaunchGenerator.j
+ ava._trace
+SHA1-Digest: 66L/y9WX/E5lNkQ5XbS18FMPaDw=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/NewMediaProjectWizard
+ $1.class
+SHA1-Digest: MbSGx6Z6k2QhccLN6rvEujswdCg=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/decoration/TopAre
+ aTpl.class
+SHA1-Digest: nLqbfkg6N2JbeACO1FjJh3Dj7rg=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/decoration/Decora
+ tionControllerTpl.xtend
+SHA1-Digest: Zhg16AYzOKBX/SC/YK7DZOsqSEM=
+
+Name: templates/common/css/images/window-min.png
+SHA1-Digest: PNTSO4GSrAxC4M+NIY6jAs78h2U=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/handlers/OpenHand
+ lerTpl.class
+SHA1-Digest: mkyTidl+8snw94Jee2vbSaM/CAQ=
+
+Name: templates/common/icons/system-restart.png
+SHA1-Digest: fdQ0YSPWR9zjmlW4o4Ue1Fw/EFU=
+
+Name: templates/common/css/images/window-corner.png
+SHA1-Digest: ecELA9t18kE1m57Z8s+15kMjCJw=
+
+Name: donotdelete
+SHA1-Digest: hIrC8XqJ7RZWKz82+/BD3Yq3s+A=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/decoration/.TopAr
+ eaTpl.java._trace
+SHA1-Digest: ouhypLbT/4pdv/y1vFEPBc+cS+w=
+
+Name: templates/common/icons/resources/pics/pic1.jpg
+SHA1-Digest: ZsE2WW5s3NR7ljUdLj/wwPxxC6s=
+
+Name: templates/common/icons/resources/pics/pic2.jpg
+SHA1-Digest: xhVTS4YPflVHGo1zC/jfXu9gUKk=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/model/MediaTypeTp
+ l.class
+SHA1-Digest: swYrv9bzMb13E5x0WP2Q0606jXQ=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/model/MediaTpl.xt
+ end
+SHA1-Digest: WNS+FIR/DIWU+OvTz9u3YW3+91U=
+
+Name: templates/common/icons/22/kaffeine.png
+SHA1-Digest: KgWFqFKFc+ZtFFaEkTWzl+deoJk=
+
+Name: templates/common/css/images/top-bar.png
+SHA1-Digest: kUwNupyyyqPTMR6gloxGh0XfS/A=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/boot/NewProjectStructureWiz
+ ard.class
+SHA1-Digest: rmV1r2rnjjNak/iHUldeW0IRwsw=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/boot/GeneratorConfiguration
+ Page$2.class
+SHA1-Digest: t2W6gfPxNXuAvV3n/D6Jw/qUrjI=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/decoration/Decora
+ tionControllerTpl.class
+SHA1-Digest: MIXbqhoqW/N9Lv3Hwnb9KTQh44E=
+
+Name: templates/common/css/images/clef.png
+SHA1-Digest: nckOvbmWOuJNwje1BmYlaFbOEQo=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/boot/NewProjectStructureWiz
+ ard$2.class
+SHA1-Digest: 5l58dzpxL5dQ4Xpv0A2brps8p+o=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/.SampleTestCaseGen
+ erator.java._trace
+SHA1-Digest: mvmUo3CmMuUjq8iNyDzoXld4V9A=
+
+Name: templates/common/css/images/window-min-over.png
+SHA1-Digest: r6K6uLsFRZpqZnKJQGu0kQuA9Lg=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/LaunchGenerator$2.
+ class
+SHA1-Digest: Y+ZWSL15jcTTByv/ePUcGxNkU7g=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/SampleTestCaseGene
+ rator.xtend
+SHA1-Digest: RyZOaezPjy3eWtN9BRkb+w3j/uI=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/model/.MediaTypeT
+ pl.java._trace
+SHA1-Digest: bCqAuYOcgP7C+atuUTLVsyYoTxg=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/.NativeLaunchGener
+ ator.java._trace
+SHA1-Digest: AMZlEHPbSa2MSJ5EManPIsAkL2s=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/NativeLaunchGenera
+ tor.xtend
+SHA1-Digest: xYIlm91EapxGBhUs9W0zgcXAIC4=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/LaunchGenerator$4.
+ class
+SHA1-Digest: bLpMlusiPYdhzDaSJ2DNws4IhiQ=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/model/MediaTpl.cl
+ ass
+SHA1-Digest: DyVVg0JFpsQIBBtBOskJUZsdtfE=
+
+Name: build_bin/org.eclipse.fx.ide.ant-0.9.0.jar
+SHA1-Digest: MEGhP7FMUj7VHUX1hV3Jea6uzUc=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/ApplicationXmiTpl
+ $1.class
+SHA1-Digest: ES4eQfIkVWoerMaigf+sNrSrZ6U=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/.TestSuiteGenerato
+ r.java._trace
+SHA1-Digest: rJ/i6qtpuNDt9yHYIXhmp+ZqwAU=
+
+Name: templates/common/css/images/window-close.png
+SHA1-Digest: rZb6vcIIIPIfLsmku1md3aHhNyM=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/.ApplicationXmiTp
+ l.java._trace
+SHA1-Digest: II9kjLKVMj7DJoj5fq7T9g4r7Z8=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/.ApplicationE4XMI.
+ java._trace
+SHA1-Digest: sglWnvqNuFp8uU1mYYuPPVlwhP8=
+
+Name: generator-tasks/e4App.rtask
+SHA1-Digest: E+Lp22X75fAP5yu4CtkMtMlG7jM=
+
+Name: templates/common/css/images/window-close-over.png
+SHA1-Digest: hyvpBvcLEhzJegvOBKXFwH+D5/Q=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/SampleTestCaseGene
+ rator.class
+SHA1-Digest: uQncIEJqmjm6YugKOa+cAUc7gzE=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/LaunchGenerator.xt
+ end
+SHA1-Digest: 3Sb/67biWUMQoLuPjQf3qQrMcHY=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/NewMediaProjectWizard
+ $2.class
+SHA1-Digest: l1/qJYlX35c5KIKUXU23s9im6RY=
+
+Name: templates/common/icons/games-config-background.png
+SHA1-Digest: THIa5wUD/rq/OHqno8axegFHW2o=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/model/.MediaTpl.j
+ ava._trace
+SHA1-Digest: bVJM1AlAFFIEIIG7+ZHMp/pUcnQ=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/NativeLaunchGenera
+ tor.class
+SHA1-Digest: gSBKlQdOMVI4cTc3Md8yBM1bpOQ=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/decoration/.Decor
+ ationControllerTpl.java._trace
+SHA1-Digest: L0gGT9Q/Nk2PB0ZVo2fLjlCZymQ=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/parts/.MediaPartT
+ pl.java._trace
+SHA1-Digest: kqEwXLpTTvcM6Y8UnyMYaEuKlNI=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/TestSuiteGenerator
+ .xtend
+SHA1-Digest: 4I1k4f/SjG4vGR7f8YwcjQnaGec=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/parts/MediaPartTp
+ l.xtend
+SHA1-Digest: +FqEE+lp/eXGGaKzKN4rpneIIQU=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/handlers/.Refresh
+ HandlerTpl.java._trace
+SHA1-Digest: xs1exu5Ov37hE1ROPAJwbG/KBso=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/ApplicationXmiTpl
+ .xtend
+SHA1-Digest: egI0eg5YX5VPP53Sa3ygDQQsrz8=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/parts/.MediaListP
+ artTpl.java._trace
+SHA1-Digest: xmDICpJT2XFPBZHhpSW1d0pW12s=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/Activator.class
+SHA1-Digest: WjX4j2ts7+U4xB/OPWlSrIs5Zes=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/parts/MediaListPa
+ rtTpl.xtend
+SHA1-Digest: h39WcA3B61Kwhc7DEunfjfXImnU=
+
+Name: templates/common/icons/kaffeine.png
+SHA1-Digest: 3zsDcQylYUyFjYps4yUbGR+bqCo=
+
+Name: META-INF/maven/org.eclipse.fx.ide/org.eclipse.fx.ide.pde.ui.e4/p
+ om.properties
+SHA1-Digest: zIQnGWvE1pAppquoIri2p10O06w=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/boot/GeneratorConfiguration
+ Page.class
+SHA1-Digest: TiQlZBFw3vgY2DegpoUz2VSFphk=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/NativeLaunchData.x
+ tend
+SHA1-Digest: dUF1YsmT+PAcXz9sCajmeamTqr4=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/ApplicationE4XMI.x
+ tend
+SHA1-Digest: VwtM7OsJk5zgv63e6ueYV1gRNqk=
+
+Name: templates/common/css/images/window-expand.png
+SHA1-Digest: 5uIIKiwSFAJ+jjl+XaY5ludYW1c=
+
+Name: templates/common/icons/22/player-volume.png
+SHA1-Digest: Ri6ee1u19wLDnSItg1QUio1Kg58=
+
+Name: plugin.xml
+SHA1-Digest: hbZsAdF6WNmP1AUAy7t2xKPME48=
+
+Name: templates/common/icons/22/games-config-background.png
+SHA1-Digest: +5i1oR8Zfy1zIDkGZHvohH1AcIg=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/LaunchGenerator.cl
+ ass
+SHA1-Digest: c86j61xSXCLfQX87/BNrPski8Xs=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/boot/GeneratorConfiguration
+ Page$1.class
+SHA1-Digest: vzvsfIBc76aYVzOjnxKcLh5cZPs=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/handlers/RefreshH
+ andlerTpl.xtend
+SHA1-Digest: Z6s3Die0gUIToF6bw1sGS84CbX0=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/boot/AppBundleProjectData.c
+ lass
+SHA1-Digest: 1n3RZH61mjaDatk7rhFbtXZBtGs=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/E4LaunchDef.class
+SHA1-Digest: V1kuiiI58S2VLbn0DQYM9349kw8=
+
+Name: templates/common/css/images/window-expand-over.png
+SHA1-Digest: QjL/boE8sLLakLy2ZfpgnH3AH2Q=
+
+Name: templates/common/icons/resources/movs/mov1.flv
+SHA1-Digest: FktdyWlJ29x8C/awMYdKLi2oMIo=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/TestSuiteGenerator
+ .class
+SHA1-Digest: bN/HyRwBCQAz0gYGFADcMhKaDeo=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/ApplicationXmiTpl
+ .class
+SHA1-Digest: aLfi1CZtd9YAx3cEBe13VFRKASs=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/parts/MediaPartTp
+ l.class
+SHA1-Digest: ZjDLANnzluGHC6c/BEf/Uz6DQZU=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/parts/MediaListPa
+ rtTpl.class
+SHA1-Digest: dWbj0duPeVCZpRmXEYZtxYNWmOw=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/boot/NewProjectStructureWiz
+ ard$1.class
+SHA1-Digest: FqZ2YXy/nvwi54wsDEcs6CLEYjU=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/LaunchGenerator$1.
+ class
+SHA1-Digest: dTh99ouJ5FS6QFxfrJujOYiML6E=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/NativeLaunchData.c
+ lass
+SHA1-Digest: jvi4/fLjiyt/poH/mVA/K1PGKvk=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/LaunchGenerator$3.
+ class
+SHA1-Digest: N1D5i/G+1Q4BKp9b9gzaA22aoCk=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/ApplicationE4XMI.c
+ lass
+SHA1-Digest: 7Kiieqj9OH/J88pFiwKm+SrKu9U=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/decoration/TopAre
+ aTpl.xtend
+SHA1-Digest: EXZMleuUSl6fg46QbHDBan9uYdU=
+
+Name: about.html
+SHA1-Digest: byfBE1mvCR9Z4J1QdrFM3yZr8Ro=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/handlers/.OpenHan
+ dlerTpl.java._trace
+SHA1-Digest: Haq+630saE+Fy0M/FjVHkp4at9U=
+
+Name: templates/css/default.css
+SHA1-Digest: Ghmes95qdnRVDubfRyZO3dZcNsQ=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/handlers/OpenHand
+ lerTpl.xtend
+SHA1-Digest: FNCB3Kc70eA3zrqmWn3i/BDCrQw=
+
+Name: templates/common/$projectName$.product
+SHA1-Digest: ziAuocfw8goHuOWxIFlpwo8NCOk=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/NewMediaProjectWizard
+ .class
+SHA1-Digest: u2cit/e+ESO0tpatESfVwzGVxuk=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/handlers/RefreshH
+ andlerTpl.class
+SHA1-Digest: vXUmkh7I7JkUSNik58dlVMBWbEg=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/template/.NativeLaunchData.
+ java._trace
+SHA1-Digest: Bk5E3YgE81o197R5Nmmr0viwBME=
+
+Name: org/eclipse/fx/ide/pde/ui/e4/project/media/tpl/model/MediaTypeTp
+ l.xtend
+SHA1-Digest: Rbz2TfY0g8laZ/qS19WX+yAgmTQ=
+
+Name: META-INF/maven/org.eclipse.fx.ide/org.eclipse.fx.ide.pde.ui.e4/p
+ om.xml
+SHA1-Digest: FWmGteOYEOnkH9IvTeWifYmBTIA=
+
+Name: generator-tasks/mediaSample.rtask
+SHA1-Digest: sFNy1Y5XD7Fcr42nrSeZhZH9V9U=
+
+Name: templates/common/icons/player-volume.png
+SHA1-Digest: /2EAm8nd+bAUCEv2EsyMBvUPmTo=
+
+Name: templates/common/icons/view-preview.png
+SHA1-Digest: MoNDGWQLgEWAkToZrODsSD4kKjw=
+

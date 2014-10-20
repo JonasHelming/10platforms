@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0
+Built-By: genie.technology.efxclipse
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.0.5
+
+Name: META-INF/maven/org.eclipse.fx.ide/org.eclipse.fx.ide.fxml.featur
+ e/pom.properties
+SHA1-Digest: WRBiL/5HruXMf+EzI8+W8RUykks=
+
+Name: META-INF/maven/org.eclipse.fx.ide/org.eclipse.fx.ide.fxml.featur
+ e/pom.xml
+SHA1-Digest: cHj97V3BZleRy2QVKRdP+rP6g2I=
+
+Name: feature.xml
+SHA1-Digest: UDDyZUFiVZI1rI8tXc2eH2ZMzUU=
+

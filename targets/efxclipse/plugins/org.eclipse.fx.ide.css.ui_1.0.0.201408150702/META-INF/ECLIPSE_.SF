@@ -1,0 +1,201 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: ZuW4qccT692esGPks3xv8ZsQ9bU=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: wmBH1mP1g80KR/YlfDbKFHNyG2s=
+
+Name: org/eclipse/fx/ide/css/ui/occurrences/CssDslOccurenceComputer$1.
+ class
+SHA1-Digest: W5D6uMfYpTLmrVuiPUKxxtXVGYA=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDslParser$DFA19.class
+SHA1-Digest: VususfEzzkFL9zC6aBHdpCLJOt4=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/CssDslParser.class
+SHA1-Digest: 9Xe9LvFS3IyO38i4HuKYbnsUJp8=
+
+Name: org/eclipse/fx/ide/css/ui/internal/CssDslActivator.class
+SHA1-Digest: 1i8N3kjge4yFC3eaMtAoHjXeQGY=
+
+Name: org/eclipse/fx/ide/css/ui/outline/CssDslOutlineTreeProvider.clas
+ s
+SHA1-Digest: lef+akO4OzpMZEjNtzJCOXMOf4U=
+
+Name: org/eclipse/fx/ide/css/ui/highlighting/CssDslHighlightingCalcula
+ tor.class
+SHA1-Digest: IwBBvFZhLXljv+NVXEf1QpeKAzA=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/AbstractCssDslProposalPr
+ ovider.class
+SHA1-Digest: o/iFHRKQH34a1IQd66wB/pgv25s=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/CssDslProposalProvider$1
+ .class
+SHA1-Digest: nMQ2LDcKO29ZO+SrFz8bcD5gOgM=
+
+Name: CssDocsStyleSheet.css
+SHA1-Digest: sZGHSyC9iWwsq8x5LjvXdH9dG1o=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/CssDslProposalProvider$3
+ .class
+SHA1-Digest: xZiO+cyIwgb5/olmJtSvamgAc3M=
+
+Name: org/eclipse/fx/ide/css/ui/highlighting/TokenMapper.class
+SHA1-Digest: cGGNhxSzF4zWNHZj7xXBsjrWgdk=
+
+Name: icons/page_white_swoosh.png
+SHA1-Digest: 02rfJqa+S7NegMLweOxcN2YP+VA=
+
+Name: icons/package_16x16.png
+SHA1-Digest: Zkyn/5eNQyGtfLT2K1E+zOEVj+Q=
+
+Name: icons/rule_16x16.png
+SHA1-Digest: uI86vIXcy8CZvTvuuFakkx+R+4w=
+
+Name: org/eclipse/fx/ide/css/ui/AbstractCssDslUiModule.class
+SHA1-Digest: RteXp4eftXhmAdhPctLXJauBzDI=
+
+Name: org/eclipse/fx/ide/css/ui/hover/CssHoverProvider.class
+SHA1-Digest: THwTt1NhQwkKdQcE3F4XDnJdpR8=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDsl.g
+SHA1-Digest: yAI+nVsAAwvsYC78fxCdaREx+PA=
+
+Name: org/eclipse/fx/ide/css/ui/doubleclicking/CssGrammarAwareStrategy
+ .class
+SHA1-Digest: BhMrA7nR3uEdnkqT8DWWeeEfMbg=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDslParser$DFA71.class
+SHA1-Digest: +Kj22Jz49iugm+izxTB20G/a7AE=
+
+Name: org/eclipse/fx/ide/css/ui/CssDslExecutableExtensionFactory.class
+SHA1-Digest: M7QUwNtUds1I41o/GO5a4azuM50=
+
+Name: org/eclipse/fx/ide/css/ui/internal/PreviewAdapterFactory.class
+SHA1-Digest: X+mMv1k3V5QxgNTSvXAYS3PXPh0=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDslParser$DFA52.class
+SHA1-Digest: hx6PA0giYzDKph0b8AjMp7GE+Wk=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDslParser$DFA10.class
+SHA1-Digest: JOFtMsv3V0uKVS32mpfNGkMQ7MU=
+
+Name: icons/property_16x16.png
+SHA1-Digest: 1sxLrc7/dgRTNYEW5E1EElQnSKk=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/PartialCssDslConte
+ ntAssistParser.class
+SHA1-Digest: 7J4XQkExpHQ7mz3ZFoh4Nzmm/n4=
+
+Name: org/eclipse/fx/ide/css/ui/doubleclicking/CssGrammarAwareStrategy
+ $1.class
+SHA1-Digest: kOQdOYh/ZZohKVDCWJ/DTUmAdPY=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDslParser$DFA14.class
+SHA1-Digest: yLjU4e1kwfJVai9jMUi6oL5RQ50=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDslParser.class
+SHA1-Digest: iMh0LzcecTUOnF38u7QthicRXdE=
+
+Name: org/eclipse/fx/ide/css/ui/quickfix/CssDslQuickfixProvider.class
+SHA1-Digest: BMUT92GziO/maGaOVMqHTvqAt/c=
+
+Name: org/eclipse/fx/ide/css/ui/commands/AddCssEditorNature.class
+SHA1-Digest: IOWvBAzLz5CSgi5PpK+DwkNKWjI=
+
+Name: org/eclipse/fx/ide/css/ui/hover/ExtApiDelegatingDocumentationPro
+ vider.class
+SHA1-Digest: xRlO6EFyZP7w/0DvFpqvOr7bhqo=
+
+Name: icons/selector_16x16.png
+SHA1-Digest: aW8Qc5pOkvgSiZE6e1lFjQ6iHx4=
+
+Name: org/eclipse/fx/ide/css/ui/internal/PreviewAdapterFactory$1.class
+SHA1-Digest: THsMDUfzJllH1kLVAeGhU2ngKB4=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA1-Digest: IM63/Z8t+J+MX1e1vlfsNqf6u9s=
+
+Name: META-INF/maven/org.eclipse.fx.ide/org.eclipse.fx.ide.css.ui/pom.
+ properties
+SHA1-Digest: okjE9i6ceLfreLC64ycSHoy8+lg=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDsl.tokens
+SHA1-Digest: lXBRbvNyrt+RAWyIHlnVXd7fEAE=
+
+Name: org/eclipse/fx/ide/css/ui/CSSEditorScope.class
+SHA1-Digest: fvhijfX8x0gphxnV6dB7tffTKZU=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDslLexer$DFA6.class
+SHA1-Digest: KCEEp6WhyEKW8P4HBuC0W/Iquhg=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/CssDslProposalProvider.c
+ lass
+SHA1-Digest: xub7CXi3P6nHc1sD/VCLcL96pBA=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/TemplateProposalProvider
+ .class
+SHA1-Digest: WkkGWt/d7/bDNRyVrejOvBdOZRM=
+
+Name: org/eclipse/fx/ide/css/ui/commands/RemoveCssEditorNature.class
+SHA1-Digest: +MHGp9b0JV6BcnqQjVXXlLd/Nc4=
+
+Name: org/eclipse/fx/ide/css/ui/highlighting/CssDslHighlightingConfigu
+ ration.class
+SHA1-Digest: eIeVbKnv0Os1ezH/BFBb7jlOccU=
+
+Name: plugin.xml
+SHA1-Digest: rkZs90Ts2sDpF27YCBHOBL3S4ww=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/CssDslParser$1.cla
+ ss
+SHA1-Digest: bUpksgJo9F1xhXtqSusXwvN2vB0=
+
+Name: META-INF/maven/org.eclipse.fx.ide/org.eclipse.fx.ide.css.ui/pom.
+ xml
+SHA1-Digest: UDugWoGEg3xpwb+bh+hPtJ/zDQI=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDslParser$DFA46.class
+SHA1-Digest: j0MOv/5WhGLbNrW118gSrUP0YwM=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/CssDslProposalProvider$2
+ .class
+SHA1-Digest: qXNxS/Q9L99Hz8kG5w9Qe3ekD/w=
+
+Name: org/eclipse/fx/ide/css/ui/CssDslUiModule.class
+SHA1-Digest: zoMj5wS5By/YcSXJUT4rU0viKSE=
+
+Name: org/eclipse/fx/ide/css/ui/extapi/UIProposal.class
+SHA1-Digest: 8IO3VHLMyYALdD+EpXhRjIA4idI=
+
+Name: about.html
+SHA1-Digest: rmRnkkfcYrgLIrCdQTRGzW7qkDM=
+
+Name: org/eclipse/fx/ide/css/ui/labeling/CssDslDescriptionLabelProvide
+ r.class
+SHA1-Digest: DZI8N7PAIZ/tDs83ESUmjU21WAc=
+
+Name: org/eclipse/fx/ide/css/ui/labeling/CssDslLabelProvider.class
+SHA1-Digest: izSRhMRfxVINuBj+dTfsg2uB5H4=
+
+Name: org/eclipse/fx/ide/css/ui/occurrences/CssDslOccurenceComputer.cl
+ ass
+SHA1-Digest: tJfOp+iRUy5ND/FTniSZkEfVGCs=
+
+Name: org/eclipse/fx/ide/css/ui/editor/WTPCompatibleDocumentProvider.c
+ lass
+SHA1-Digest: O8HroSpC3vjMQpVe+mprzVwzCR8=
+
+Name: org/eclipse/fx/ide/css/ui/contentassist/antlr/internal/InternalC
+ ssDslLexer.class
+SHA1-Digest: KyHUbQrTK3nd6KIrhmuNXsi5ieM=
+

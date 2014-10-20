@@ -1,0 +1,19 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: SkLU2no9RkXKpsdjYWqOJDenSME=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: akYWpuvAyt01ZjzKOU4aAfvzFWQ=
+
+Name: META-INF/maven/org.eclipse.e4/org.eclipse.e4.core.tools.feature/
+ pom.xml
+SHA1-Digest: APd+4IKLIcG5vDDQV2d29HBxBcs=
+
+Name: META-INF/maven/org.eclipse.e4/org.eclipse.e4.core.tools.feature/
+ pom.properties
+SHA1-Digest: j4ztoUYVavKR2eyNj8rqZXnrIL0=
+
+Name: feature.properties
+SHA1-Digest: V6AZBDihrucKI26KcxickoiviKA=
+
+Name: feature.xml
+SHA1-Digest: y90qVFQzGcicG0gzzWFyR6Nh1T0=
+
