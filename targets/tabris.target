@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Tabris" sequenceNumber="5">
+<?pde version="3.8"?><target name="Tabris" sequenceNumber="6">
 <locations>
 <location path="${project_loc}/rap" type="Directory"/>
 <location path="${project_loc}/ecp" type="Directory"/>
 <location path="${project_loc}/emf" type="Directory"/>
 <location path="${project_loc}/swt-shared" type="Directory"/>
 <location path="${project_loc}/tabris" type="Directory"/>
+<location path="${project_loc}/webapi" type="Directory"/>
 </locations>
 </target>
