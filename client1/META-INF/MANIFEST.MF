@@ -20,3 +20,4 @@ Import-Package: org.eclipse.core.databinding,
  org.eclipse.swt.events,
  org.eclipse.swt.layout,
  org.eclipse.swt.widgets
+Export-Package: client1
