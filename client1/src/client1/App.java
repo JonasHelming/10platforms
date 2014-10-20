@@ -1,7 +1,10 @@
 package client1;
 
+import java.io.IOException;
+
 import org.eclipse.core.databinding.observable.Realm;
 import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecp.emf2web.WebHandler;
 import org.eclipse.emf.ecp.ui.view.ECPRendererException;
 import org.eclipse.emf.ecp.ui.view.swt.ECPSWTViewRenderer;
 import org.eclipse.emf.ecp.view.spi.provider.ViewProviderHelper;
@@ -30,7 +33,13 @@ public class App implements SWTAppStart {
 		button.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				MessageDialog.openInformation(shell.getShell(), "", newObject.toString());
+				WebHandler webHandler = new WebHandler("http://localhost:9000");
+				try {
+					webHandler.createWebElement(newObject);
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 
 			}
 		});
