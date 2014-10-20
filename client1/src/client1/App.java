@@ -17,17 +17,18 @@ import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
 import submission.SubmissionFactory;
 
 public class App implements SWTAppStart {
-	public static void fillShell(final Shell shell) throws ECPRendererException{
+	public static void fillShell(final Composite parent) throws ECPRendererException{
 		final EObject newObject = SubmissionFactory.eINSTANCE.createSubmission();
-		ECPSWTViewRenderer.INSTANCE.render(shell, newObject,
+		ECPSWTViewRenderer.INSTANCE.render(parent, newObject,
 				ViewProviderHelper.getView(newObject, null));
-		Button button = new Button(shell, SWT.PUSH);
+		Button button = new Button(parent, SWT.PUSH);
 		button.setText("Submit");
 		button.addSelectionListener(new SelectionAdapter() {
 			@Override
