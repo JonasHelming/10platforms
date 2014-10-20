@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="rcp" sequenceNumber="28">
+<?pde version="3.8"?><target name="rcp" sequenceNumber="29">
 <locations>
 <location path="${project_loc}/fxforms" type="Directory"/>
-<location path="${project_loc}/swt-native" type="Directory"/>
-<location path="${project_loc}/swt-shared" type="Directory"/>
 <location path="${project_loc}/emf" type="Directory"/>
 <location path="${project_loc}/ecp" type="Directory"/>
-<location path="${project_loc}/eclipse" type="Directory"/>
+<location path="${project_loc}\efxclipse" type="Directory"/>
 </locations>
 </target>
