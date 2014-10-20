@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="rcp_fx" sequenceNumber="29">
+<?pde version="3.8"?><target name="rcp_fx" sequenceNumber="30">
 <locations>
 <location path="${project_loc}/eclipse" type="Directory"/>
 <location path="${project_loc}/emf" type="Directory"/>
 <location path="${project_loc}/ecp" type="Directory"/>
 <location path="${project_loc}/swt-fx" type="Directory"/>
 <location path="${project_loc}/swt-shared" type="Directory"/>
+<location path="${project_loc}/webapi" type="Directory"/>
 </locations>
 <includeBundles>
 <plugin id="com.ibm.icu"/>
@@ -216,6 +217,7 @@
 <plugin id="org.eclipse.emf.ecp.edit.swt.source" version="1.4.1.20141006-1346"/>
 <plugin id="org.eclipse.emf.ecp.editor.e3" version="1.4.1.20141006-1346"/>
 <plugin id="org.eclipse.emf.ecp.editor.e3.source" version="1.4.1.20141006-1346"/>
+<plugin id="org.eclipse.emf.ecp.emf2web.api"/>
 <plugin id="org.eclipse.emf.ecp.emfstore.core" version="1.4.1.20141006-1346"/>
 <plugin id="org.eclipse.emf.ecp.emfstore.core.source" version="1.4.1.20141006-1346"/>
 <plugin id="org.eclipse.emf.ecp.emfstore.ui" version="1.4.1.20141006-1346"/>
