@@ -1,5 +1,6 @@
 package client1;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.eclipse.core.databinding.observable.Realm;
@@ -13,6 +14,7 @@ import org.eclipse.fx.runtime.swtutil.SWTUtil.BlockCondition;
 import org.eclipse.fx.runtime.swtutil.SWTUtil.SWTAppStart;
 import org.eclipse.jface.databinding.swt.SWTObservables;
 import org.eclipse.jface.dialogs.MessageDialog;
+import org.eclipse.oomph.internal.ui.AccessUtil;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
@@ -33,6 +35,14 @@ public class App implements SWTAppStart {
 		button.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
+				
+				try {
+					AccessUtil.save(new File("C:/temp/submissionform.png"), shell);
+				} catch (IOException e2) {
+					// TODO Auto-generated catch block
+					e2.printStackTrace();
+				}
+				
 				WebHandler webHandler = new WebHandler("http://localhost:9000");
 				try {
 					webHandler.createWebElement(newObject);
