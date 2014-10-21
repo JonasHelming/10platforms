@@ -22,7 +22,7 @@ public class TabrisConfiguration implements ApplicationConfiguration {
 		UIConfiguration uiConfiguration = new UIConfiguration();
 	    PageConfiguration topLevelPage = new PageConfiguration("topLevelPage", ExamplePage.class);
 	    topLevelPage.setTopLevel(true);
-	    topLevelPage.setTitle("Tabris Demo");
+	    //topLevelPage.setTitle("Tabris Demo");
 	    uiConfiguration.addPageConfiguration(topLevelPage);
 	    
 		return uiConfiguration;
