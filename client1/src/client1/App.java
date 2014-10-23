@@ -21,29 +21,64 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
+import submission.Submission;
 import submission.SubmissionFactory;
 
 public class App implements SWTAppStart {
 	public static void fillShell(final Composite parent) throws ECPRendererException{
-		final EObject newObject = SubmissionFactory.eINSTANCE.createSubmission();
-		ECPSWTViewRenderer.INSTANCE.render(parent, newObject,
-				ViewProviderHelper.getView(newObject, null));
-		Button button = new Button(parent, SWT.PUSH);
+		final Submission submission = SubmissionFactory.eINSTANCE.createSubmission();
+		ECPSWTViewRenderer.INSTANCE.render(parent, submission);
+		Button button = new Button(parent, SWT.NONE);
 		button.setText("Submit");
 		button.addSelectionListener(new SelectionAdapter() {
+
 			@Override
 			public void widgetSelected(SelectionEvent e) {
 				WebHandler webHandler = new WebHandler("http://localhost:9000");
 				try {
-					webHandler.createWebElement(newObject);
+					webHandler.createWebElement(submission);
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-
 			}
+			
 		});
+		
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//	
+//	public static void fillShell(final Composite parent) throws ECPRendererException{
+//		final EObject newObject = SubmissionFactory.eINSTANCE.createSubmission();
+//		ECPSWTViewRenderer.INSTANCE.render(parent, newObject,
+//				ViewProviderHelper.getView(newObject, null));
+//		Button button = new Button(parent, SWT.PUSH);
+//		button.setText("Submit");
+//		button.addSelectionListener(new SelectionAdapter() {
+//			@Override
+//			public void widgetSelected(SelectionEvent e) {
+//				WebHandler webHandler = new WebHandler("http://localhost:9000");
+//				try {
+//					webHandler.createWebElement(newObject);
+//				} catch (IOException e1) {
+//					// TODO Auto-generated catch block
+//					e1.printStackTrace();
+//				}
+//
+//			}
+//		});
+//	}
 
 	@Override
 	public BlockCondition createApp(Display display) {

@@ -38,7 +38,7 @@ public interface SubmissionPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "myUniqueID";
+	String eNS_URI = "http://submission";
 
 	/**
 	 * The package namespace name.

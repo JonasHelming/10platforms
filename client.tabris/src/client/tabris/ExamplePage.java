@@ -17,6 +17,32 @@ import com.eclipsesource.tabris.ui.PageData;
 
 public class ExamplePage extends AbstractPage {
 
+	@Override
+	public void createContent(Composite parent, PageData data) {
+		parent.setLayout(new GridLayout());
+		setupRealm(Display.getCurrent());		
+		try {
+			App.fillShell(parent);
+		} catch (ECPRendererException e) {
+			e.printStackTrace();
+		}
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	private static final long serialVersionUID = 7800936887572548646L;
 
 	protected void setupRealm(Display display) {
@@ -28,15 +54,5 @@ public class ExamplePage extends AbstractPage {
 		}
 	}
 	
-	@Override
-	public void createContent(Composite parent, PageData data) {
-		parent.setLayout(new GridLayout());
-		setupRealm(Display.getCurrent());		
-		try {
-			App.fillShell(parent);
-		} catch (ECPRendererException e) {
-			e.printStackTrace();
-		}
-	}
 
 }

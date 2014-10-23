@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated submission -->
       <package
-            uri="myUniqueID"
+            uri="http://submission"
             class="submission.SubmissionPackage"
             genModel="model/submission.genmodel"/>
    </extension>
