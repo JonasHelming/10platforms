@@ -217,7 +217,7 @@
 <plugin id="org.eclipse.emf.ecp.edit.swt.source" version="1.4.1.20141006-1346"/>
 <plugin id="org.eclipse.emf.ecp.editor.e3" version="1.4.1.20141006-1346"/>
 <plugin id="org.eclipse.emf.ecp.editor.e3.source" version="1.4.1.20141006-1346"/>
-<plugin id="org.eclipse.emf.ecp.emf2web.api"/>
+<plugin id="org.eclipse.emf.ecp.emf2web.api" version="1.0.0.201410201509"/>
 <plugin id="org.eclipse.emf.ecp.emfstore.core" version="1.4.1.20141006-1346"/>
 <plugin id="org.eclipse.emf.ecp.emfstore.core.source" version="1.4.1.20141006-1346"/>
 <plugin id="org.eclipse.emf.ecp.emfstore.ui" version="1.4.1.20141006-1346"/>

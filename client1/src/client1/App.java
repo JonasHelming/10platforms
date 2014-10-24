@@ -1,5 +1,6 @@
 package client1;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.eclipse.core.databinding.observable.Realm;
@@ -12,6 +13,7 @@ import org.eclipse.fx.runtime.swtutil.SWTUtil;
 import org.eclipse.fx.runtime.swtutil.SWTUtil.BlockCondition;
 import org.eclipse.fx.runtime.swtutil.SWTUtil.SWTAppStart;
 import org.eclipse.jface.databinding.swt.SWTObservables;
+import org.eclipse.oomph.internal.ui.AccessUtil;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
@@ -24,26 +26,12 @@ import org.eclipse.swt.widgets.Shell;
 import submission.Submission;
 import submission.SubmissionFactory;
 
+
+
+
 public class App implements SWTAppStart {
 	public static void fillShell(final Composite parent) throws ECPRendererException{
-		final Submission submission = SubmissionFactory.eINSTANCE.createSubmission();
-		ECPSWTViewRenderer.INSTANCE.render(parent, submission);
-		Button button = new Button(parent, SWT.NONE);
-		button.setText("Submit");
-		button.addSelectionListener(new SelectionAdapter() {
-
-			@Override
-			public void widgetSelected(SelectionEvent e) {
-				WebHandler webHandler = new WebHandler("http://localhost:9000");
-				try {
-					webHandler.createWebElement(submission);
-				} catch (IOException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-			}
-			
-		});
+		
 		
 	}
 	
@@ -58,7 +46,20 @@ public class App implements SWTAppStart {
 	
 	
 	
-//	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 //	public static void fillShell(final Composite parent) throws ECPRendererException{
 //		final EObject newObject = SubmissionFactory.eINSTANCE.createSubmission();
 //		ECPSWTViewRenderer.INSTANCE.render(parent, newObject,
@@ -70,7 +71,7 @@ public class App implements SWTAppStart {
 //			public void widgetSelected(SelectionEvent e) {
 //				WebHandler webHandler = new WebHandler("http://localhost:9000");
 //				try {
-//					webHandler.createWebElement(newObject);
+//					AccessUtil.save(new File("c:/temp/screen.png"), parent);
 //				} catch (IOException e1) {
 //					// TODO Auto-generated catch block
 //					e1.printStackTrace();
