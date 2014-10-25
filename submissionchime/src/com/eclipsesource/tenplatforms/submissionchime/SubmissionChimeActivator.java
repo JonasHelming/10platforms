@@ -47,7 +47,7 @@ public class SubmissionChimeActivator implements BundleActivator {
 			HttpResponse<String> response = Unirest
 					.post("http://10.0.0.32:8080/rest/items/Chime_On")
 					.body("ON").asString();
-			System.out.println(response.toString());
+			System.out.println(response.getBody());
 		} catch (UnirestException e) {
 			e.printStackTrace();
 		}
