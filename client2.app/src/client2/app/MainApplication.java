@@ -20,13 +20,8 @@ import submission.Submission;
 import submission.SubmissionFactory;
 
 public class MainApplication extends AbstractJFXApplication {
-	protected void jfxStart(IApplicationContext applicationContext, Application jfxApplication, Stage primaryStage) {
-		BorderPane pane=new BorderPane();
-		Scene s = new Scene(pane);
-		primaryStage.setScene(s);
-		primaryStage.setWidth(300);
-		primaryStage.setHeight(200);
-		primaryStage.setTitle("Hello World");
+
+	private void fillPane(BorderPane pane) {
 		final Submission submission = SubmissionFactory.eINSTANCE.createSubmission();
 		ECPFXView ecpfxView = ECPFXViewRenderer.INSTANCE.render(submission);
 		pane.setCenter(ecpfxView.getFXNode());
@@ -45,6 +40,28 @@ public class MainApplication extends AbstractJFXApplication {
 			}
 		});
 		pane.setBottom(button);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	protected void jfxStart(IApplicationContext applicationContext, Application jfxApplication, Stage primaryStage) {
+		BorderPane pane=new BorderPane();
+		Scene s = new Scene(pane);
+		primaryStage.setScene(s);
+		primaryStage.setWidth(300);
+		primaryStage.setHeight(200);
+		primaryStage.setTitle("Hello World");
+		fillPane(pane);
 		primaryStage.show();
 	}
 }

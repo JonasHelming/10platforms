@@ -13,7 +13,6 @@ import org.eclipse.fx.runtime.swtutil.SWTUtil;
 import org.eclipse.fx.runtime.swtutil.SWTUtil.BlockCondition;
 import org.eclipse.fx.runtime.swtutil.SWTUtil.SWTAppStart;
 import org.eclipse.jface.databinding.swt.SWTObservables;
-import org.eclipse.oomph.internal.ui.AccessUtil;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
