@@ -30,56 +30,56 @@ import submission.SubmissionFactory;
 
 
 public class App implements SWTAppStart {
-	public static void fillShell(final Composite parent) throws ECPRendererException{
-		
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 //	public static void fillShell(final Composite parent) throws ECPRendererException{
-//		final EObject newObject = SubmissionFactory.eINSTANCE.createSubmission();
-//		ECPSWTViewRenderer.INSTANCE.render(parent, newObject,
-//				ViewProviderHelper.getView(newObject, null));
-//		Button button = new Button(parent, SWT.PUSH);
-//		button.setText("Submit");
-//		button.addSelectionListener(new SelectionAdapter() {
-//			@Override
-//			public void widgetSelected(SelectionEvent e) {
-//				WebHandler webHandler = new WebHandler("http://localhost:9000");
-//				try {
-//					AccessUtil.save(new File("c:/temp/screen.png"), parent);
-//				} catch (IOException e1) {
-//					// TODO Auto-generated catch block
-//					e1.printStackTrace();
-//				}
-//
-//			}
-//		});
+//		
+//		
 //	}
+//	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void fillShell(final Composite parent) throws ECPRendererException{
+		final EObject newObject = SubmissionFactory.eINSTANCE.createSubmission();
+		ECPSWTViewRenderer.INSTANCE.render(parent, newObject,
+				ViewProviderHelper.getView(newObject, null));
+		Button button = new Button(parent, SWT.PUSH);
+		button.setText("Submit");
+		button.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				WebHandler webHandler = new WebHandler("http://localhost:9000");
+				try {
+					webHandler.createWebElement(newObject);
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+
+			}
+		});
+	}
 
 	@Override
 	public BlockCondition createApp(Display display) {

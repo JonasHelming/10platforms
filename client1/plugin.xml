@@ -11,6 +11,18 @@
          </run>
       </application>
    </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="client1.application"
+            name="client1">
+         <property
+               name="appName"
+               value="client1">
+         </property>
+      </product>
+   </extension>
   <!--<extension
          point="org.eclipse.rap.ui.entrypoint">
       <entrypoint
